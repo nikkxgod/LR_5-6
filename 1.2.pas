@@ -8,7 +8,7 @@
     s:=0;
     p:=1;
     for i:=1 to 20 do begin
-      A[i]:=random(115)-22;
+      A[i]:=random(116)-22;
       if (i mod 2 <> 0) and (A[i] mod 2 = 0) then q := q+1;
       if (i mod 2 <> 0) then p:=p*A[i];
       if (A[i]>=z) and (A[i]<=b)then s:=s+A[i];
